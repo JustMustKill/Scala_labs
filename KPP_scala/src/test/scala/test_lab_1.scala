@@ -1,5 +1,5 @@
 import org.scalatest.funsuite.AnyFunSuite
-class test extends AnyFunSuite {
+class test_lab_1 extends AnyFunSuite {
   test("Tail recursion str") {
     val str: String = "HELLO WORLD"
     val result:String = "hello world"
