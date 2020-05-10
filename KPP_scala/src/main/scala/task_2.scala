@@ -1,7 +1,7 @@
 import scala.annotation.tailrec
 import scala.io.StdIn
 
-object task_2 {
+object task_2 { 
   def fun(array:List[Int], i:Int, len:Int, result:List[Int]=Nil):List[Int] ={
     if(i>=2) {
       if (array(i) < (array(i - 2) - array(i - 1))){
