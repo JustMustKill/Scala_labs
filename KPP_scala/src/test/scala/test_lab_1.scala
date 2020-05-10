@@ -4,7 +4,7 @@ class test_lab_1 extends AnyFunSuite {
     val str: String = "HELLO WORLD"
     val result:String = "hello world"
     assert(task_1.fun(65,str)===result)
-  }
+  } 
   test("Recursion str") {
     val str: String = "HELLO WORLD"
     val result:String = "hello world"
