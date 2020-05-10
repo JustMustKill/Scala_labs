@@ -4,7 +4,7 @@ class test_lab_2 extends AnyFunSuite {
     val array: List[Int] = List(10, 2, -5, -8, 3, -7, 1, 5, 7, -12, 5, -12, 5, 6, 7, -9)
     assert(lab_2.task1(array) === List(15, 11, 9, 5, 3, 2))
   }
-  test("task2") {
+  test("task2") { 
     val array: List[Int] = List(10, 2, -5, -8, 3, -7, 1, 5, 7, -12, 5, -12, 5, 6, 7, -9, 10)
     assert(lab_2.task2(array) === 8)
   }
